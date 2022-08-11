@@ -1457,7 +1457,7 @@ GameObject:
   - component: {fileID: 1675798978}
   - component: {fileID: 1675798979}
   m_Layer: 0
-  m_Name: SpeedController
+  m_Name: SpeedManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
