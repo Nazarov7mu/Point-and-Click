@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 namespace Utils
 {
+    // UI elements like buttons and Score number will change their sizes depending on resolution.
     public class CanvasMatch : MonoBehaviour
     {
         [SerializeField] private CanvasScaler[] _canvasScalers;

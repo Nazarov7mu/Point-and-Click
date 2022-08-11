@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace Utils
 {
+    // Helps with notches, hole punches, chins on smartphones.
     public class SafeAreaPanel : MonoBehaviour
     {
         private RectTransform _panel;

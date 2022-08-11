@@ -16,6 +16,7 @@ namespace Utils
         Both
     }
 
+    // Attach "CameraFitter" script to Camera in the scene to avoid wrong camera cropping. 
     public class CameraFitter : MonoBehaviour
     {
         [SerializeField] private Camera _camera;

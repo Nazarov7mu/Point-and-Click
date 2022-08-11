@@ -5,6 +5,7 @@ namespace Collectible
 {
     public class Collectible : MonoBehaviour
     {
+        // In the future, there might be Collectibles with different scores.
         [SerializeField] private int _score = 1;
 
         private CollectiblesSpawner _collectiblesSpawner;

@@ -35,7 +35,7 @@ namespace Collectible
             float posX, posY, dist;
             GetRandomPosition();
             
-            while (dist < MinDistance)
+            while (dist < MinDistance) // While Collectible might be too close to the Player
             {
                 GetRandomPosition();
                 print("Collectible is too close");
