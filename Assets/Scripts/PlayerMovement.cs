@@ -50,6 +50,11 @@ public class PlayerMovement : MonoBehaviour
         float step = Speed * Time.deltaTime;
         transform.position = Vector2.MoveTowards(transform.position, _target, step);
     }
+    
+    public void ChangeSpeed(float value)
+    {
+        Speed += value;
+    }
 
     /*
     //MOVEMENTS USING PHYSIC:
